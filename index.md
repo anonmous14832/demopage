@@ -33,7 +33,7 @@ In this paper we propose ZenFlow: a framework for Zero-Shot Generative Speech Sy
       </tr>            
    </tbody>
 </table>   
-   
+
 <table>
    <thead>
       <tr>
@@ -61,6 +61,7 @@ In this paper we propose ZenFlow: a framework for Zero-Shot Generative Speech Sy
       </tr>            
    </tbody>
 </table>   
+
 <table>
    <thead>
       <tr>
