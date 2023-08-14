@@ -60,6 +60,33 @@ In this paper we propose ZenFlow: a framework for Zero-Shot Generative Speech Sy
          <td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/robustness/16khz/zenflow_237-134500-0010_hat.wav" type="audio/wav"></audio></td>      
       </tr>            
    </tbody>
+</table>   
+<table>
+   <thead>
+      <tr>
+         <th style="text-align: center">Degraded</th>
+         <th style="text-align: center">EnCodec</th>
+         <th style="text-align: center">ZenFlow </th>
+      </tr>
+   </thead>
+   Degradation 22khz
+   <tbody>
+      <tr>      
+         <td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/robustness/22khz/61-70968-0016_deg.wav" type="audio/wav"></audio></td>
+         <td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/robustness/22khz/encodec_61-70968-0016_hat.wav" type="audio/wav"></audio></td>
+         <td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/robustness/22khz/zenflow_61-70968-0016_hat.wav" type="audio/wav"></audio></td>      
+      </tr>
+      <tr>      
+         <td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/robustness/22khz/121-121726-0010_deg.wav" type="audio/wav"></audio></td>
+         <td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/robustness/22khz/encodec_121-121726-0010_hat.wav" type="audio/wav"></audio></td>
+         <td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/robustness/22khz/zenflow_121-121726-0010_hat.wav" type="audio/wav"></audio></td>      
+      </tr>
+      <tr>      
+         <td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/robustness/22khz/237-134500-0010_deg.wav" type="audio/wav"></audio></td>
+         <td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/robustness/22khz/encodec_237-134500-0010_hat.wav" type="audio/wav"></audio></td>
+         <td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/robustness/22khz/zenflow_237-134500-0010_hat.wav" type="audio/wav"></audio></td>      
+      </tr>            
+   </tbody>   
 </table>    
       
 
