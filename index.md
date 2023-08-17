@@ -10,26 +10,34 @@ In this paper we propose ZenFlow: a framework for Zero-Shot Generative Speech Sy
    <thead>
       <tr>
          <th style="text-align: center">Degraded</th>
-         <th style="text-align: center">EnCodec</th>
-         <th style="text-align: center">ZenFlow </th>
+         <th style="text-align: center">EnCodec 6.0kbps</th>
+         <th style="text-align: center">EnCodec 1.5kbps</th>
+         <th style="text-align: center">ZenFlow-Continuous 0.947 kbps + F0, Energy </th>
+         <th style="text-align: center">ZenFlow-Discrete 2.153 kbps </th>
       </tr>
    </thead>
    Degradation 8khz
    <tbody>
       <tr>      
          <td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/robustness/8khz/61-70968-0016_deg.wav" type="audio/wav"></audio></td>
-         <td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/robustness/8khz/encodec_61-70968-0016_hat.wav" type="audio/wav"></audio></td>
-         <td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/robustness/8khz/zenflow_61-70968-0016_hat.wav" type="audio/wav"></audio></td>      
+         <td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/robustness/8khz/encodec_6p0bw-61-70968-0016_hat.wav" type="audio/wav"></audio></td>
+         <td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/robustness/8khz/encodec_1p5bw-61-70968-0016_hat.wav" type="audio/wav"></audio></td>   
+         <td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/robustness/8khz/zenflow-continuous-61-70968-0016_hat.wav" type="audio/wav"></audio></td>
+         <td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/robustness/8khz/zenflow-discrete-61-70968-0016_hat.wav" type="audio/wav"></audio></td>
       </tr>
       <tr>      
          <td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/robustness/8khz/121-121726-0010_deg.wav" type="audio/wav"></audio></td>
-         <td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/robustness/8khz/encodec_121-121726-0010_hat.wav" type="audio/wav"></audio></td>
-         <td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/robustness/8khz/zenflow_121-121726-0010_hat.wav" type="audio/wav"></audio></td>      
+         <td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/robustness/8khz/encodec_6p0bw-121-121726-0010_hat.wav" type="audio/wav"></audio></td>
+         <td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/robustness/8khz/encodec_1p5bw-121-121726-0010_hat.wav" type="audio/wav"></audio></td>
+         <td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/robustness/8khz/zenflow-continuous-121-121726-0010_hat.wav" type="audio/wav"></audio></td>
+         <td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/robustness/8khz/zenflow-discrete-121-121726-0010_hat.wav" type="audio/wav"></audio></td>
       </tr>
       <tr>      
          <td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/robustness/8khz/237-134500-0010_deg.wav" type="audio/wav"></audio></td>
-         <td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/robustness/8khz/encodec_237-134500-0010_hat.wav" type="audio/wav"></audio></td>
-         <td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/robustness/8khz/zenflow_237-134500-0010_hat.wav" type="audio/wav"></audio></td>      
+         <td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/robustness/8khz/encodec_6p0bw-237-134500-0010_hat.wav" type="audio/wav"></audio></td>
+         <td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/robustness/8khz/encodec_1p5bw-237-134500-0010_hat.wav" type="audio/wav"></audio></td>
+         <td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/robustness/8khz/zenflow-continuous-237-134500-0010_hat.wav" type="audio/wav"></audio></td>      
+         <td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/robustness/8khz/zenflow-discrete-237-134500-0010_hat.wav" type="audio/wav"></audio></td>         
       </tr>            
    </tbody>
 </table>   
@@ -38,26 +46,34 @@ In this paper we propose ZenFlow: a framework for Zero-Shot Generative Speech Sy
    <thead>
       <tr>
          <th style="text-align: center">Degraded</th>
-         <th style="text-align: center">EnCodec</th>
-         <th style="text-align: center">ZenFlow </th>
+         <th style="text-align: center">EnCodec 6.0kbps</th>
+         <th style="text-align: center">EnCodec 1.5kbps</th>
+         <th style="text-align: center">ZenFlow-Continuous 0.947 kbps + F0, Energy </th>
+         <th style="text-align: center">ZenFlow-Discrete 2.153 kbps </th>
       </tr>
    </thead>
    Degradation 16khz
    <tbody>
       <tr>      
          <td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/robustness/16khz/61-70968-0016_deg.wav" type="audio/wav"></audio></td>
-         <td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/robustness/16khz/encodec_61-70968-0016_hat.wav" type="audio/wav"></audio></td>
-         <td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/robustness/16khz/zenflow_61-70968-0016_hat.wav" type="audio/wav"></audio></td>      
+         <td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/robustness/16khz/encodec_6p0bw-61-70968-0016_hat.wav" type="audio/wav"></audio></td>
+         <td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/robustness/16khz/encodec_1p5bw-61-70968-0016_hat.wav" type="audio/wav"></audio></td>
+         <td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/robustness/16khz/zenflow-continuous-70968-0016_hat.wav" type="audio/wav"></audio></td>
+         <td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/robustness/16khz/zenflow-discrete-61-70968-0016_hat.wav" type="audio/wav"></audio></td>      
       </tr>
       <tr>      
          <td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/robustness/16khz/121-121726-0010_deg.wav" type="audio/wav"></audio></td>
-         <td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/robustness/16khz/encodec_121-121726-0010_hat.wav" type="audio/wav"></audio></td>
-         <td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/robustness/16khz/zenflow_121-121726-0010_hat.wav" type="audio/wav"></audio></td>      
+         <td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/robustness/16khz/encodec_6p0bw-121-121726-0010_hat.wav" type="audio/wav"></audio></td>
+         <td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/robustness/16khz/encodec_1p5bw-121-121726-0010_hat.wav" type="audio/wav"></audio></td>
+         <td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/robustness/16khz/zenflow-continuous-121-121726-0010_hat.wav" type="audio/wav"></audio></td>
+         <td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/robustness/16khz/zenflow-discrete-121-121726-0010_hat.wav" type="audio/wav"></audio></td>      
       </tr>
       <tr>      
          <td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/robustness/16khz/237-134500-0010_deg.wav" type="audio/wav"></audio></td>
-         <td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/robustness/16khz/encodec_237-134500-0010_hat.wav" type="audio/wav"></audio></td>
-         <td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/robustness/16khz/zenflow_237-134500-0010_hat.wav" type="audio/wav"></audio></td>      
+         <td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/robustness/16khz/encodec_6p0bw-237-134500-0010_hat.wav" type="audio/wav"></audio></td>
+         <td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/robustness/16khz/encodec_1p5bw-237-134500-0010_hat.wav" type="audio/wav"></audio></td>
+         <td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/robustness/16khz/zenflow-continuous-237-134500-0010_hat.wav" type="audio/wav"></audio></td>
+         <td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/robustness/16khz/zenflow-discrete-237-134500-0010_hat.wav" type="audio/wav"></audio></td>      
       </tr>            
    </tbody>
 </table>   
@@ -66,26 +82,34 @@ In this paper we propose ZenFlow: a framework for Zero-Shot Generative Speech Sy
    <thead>
       <tr>
          <th style="text-align: center">Degraded</th>
-         <th style="text-align: center">EnCodec</th>
-         <th style="text-align: center">ZenFlow </th>
+         <th style="text-align: center">EnCodec 6.0kbps</th>
+         <th style="text-align: center">EnCodec 1.5kbps</th>
+         <th style="text-align: center">ZenFlow-Continuous 0.947 kbps + F0, Energy </th>
+         <th style="text-align: center">ZenFlow-Discrete 2.153 kbps </th>
       </tr>
    </thead>
-   Degradation 22khz
+   Resynthesis 22khz
    <tbody>
       <tr>      
          <td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/robustness/22khz/61-70968-0016_deg.wav" type="audio/wav"></audio></td>
-         <td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/robustness/22khz/encodec_61-70968-0016_hat.wav" type="audio/wav"></audio></td>
-         <td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/robustness/22khz/zenflow_61-70968-0016_hat.wav" type="audio/wav"></audio></td>      
+         <td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/robustness/22khz/encodec_6p0bw-61-70968-0016_hat.wav" type="audio/wav"></audio></td>
+         <td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/robustness/22khz/encodec_1p5bw-61-70968-0016_hat.wav" type="audio/wav"></audio></td>
+         <td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/robustness/22khz/zenflow-continuous-61-70968-0016_hat.wav" type="audio/wav"></audio></td>
+         <td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/robustness/22khz/zenflow-discrete-61-70968-0016_hat.wav" type="audio/wav"></audio></td>      
       </tr>
       <tr>      
          <td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/robustness/22khz/121-121726-0010_deg.wav" type="audio/wav"></audio></td>
-         <td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/robustness/22khz/encodec_121-121726-0010_hat.wav" type="audio/wav"></audio></td>
-         <td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/robustness/22khz/zenflow_121-121726-0010_hat.wav" type="audio/wav"></audio></td>      
+         <td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/robustness/22khz/encodec_6p0bw-121-121726-0010_hat.wav" type="audio/wav"></audio></td>
+         <td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/robustness/22khz/encodec_1p5bw-121-121726-0010_hat.wav" type="audio/wav"></audio></td>
+         <td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/robustness/22khz/zenflow-continuous-121-121726-0010_hat.wav" type="audio/wav"></audio></td>
+         <td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/robustness/22khz/zenflow-discrete-121-121726-0010_hat.wav" type="audio/wav"></audio></td>      
       </tr>
       <tr>      
          <td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/robustness/22khz/237-134500-0010_deg.wav" type="audio/wav"></audio></td>
-         <td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/robustness/22khz/encodec_237-134500-0010_hat.wav" type="audio/wav"></audio></td>
-         <td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/robustness/22khz/zenflow_237-134500-0010_hat.wav" type="audio/wav"></audio></td>      
+         <td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/robustness/22khz/encodec_6p0bw-237-134500-0010_hat.wav" type="audio/wav"></audio></td>
+         <td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/robustness/22khz/encodec_1p5bw-237-134500-0010_hat.wav" type="audio/wav"></audio></td>
+         <td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/robustness/22khz/zenflow-continuous-237-134500-0010_hat.wav" type="audio/wav"></audio></td>
+         <td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/robustness/22khz/zenflow-discrete-237-134500-0010_hat.wav" type="audio/wav"></audio></td>      
       </tr>            
    </tbody>   
 </table>    
@@ -175,33 +199,33 @@ Reference
          <th style="text-align: center">ZenTTS with English ZenFlow (English accent)</th>
          <th style="text-align: center">ZenTTS with English ZenFlow (German accent)</th>
          <th style="text-align: center">ZenTTS with Multilingual ZenFlow (English accent)</th>
-         <th style="text-align: center">ZenTTS with Multilingual ZenFlow (German accent)</th>               
+         <th style="text-align: center">ZenTTS with Multilingual ZenFlow (German accent)</th>
       </tr>
    </thead>
    <tbody>
       <tr>
       <td style="text-align: left;vertical-align:middle;width: 420px;">He was in consequence put out of the protection of their internal law, end quote. Their code was a subject of some curiosity.</td>
          <td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/multilingual/ground_truth/LJ003-0111.wav" type="audio/wav"></audio></td>
-         <td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/multilingual/ljs/en_US/zenflowtts-spkenctrsnf-alldata-f0transf-pdropdur0p0f0out0p0-2048ntokens-lngemb/LJ003-0111.wav" type="audio/wav"></audio></td>
-         <td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/multilingual/ljs/en_DE/zenflowtts-spkenctrsnf-alldata-f0transf-pdropdur0p0f0out0p0-2048ntokens-lngemb/LJ003-0111.wav" type="audio/wav"></audio></td>
-         <td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/multilingual/ljs/en_US/zenflowtts-spkenctrsnf-alldata-backboneall-f0transf-pdropdur0p0f0out0p0-2048ntokens-lngemb/LJ003-0111.wav" type="audio/wav"></audio></td>
-         <td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/multilingual/ljs/en_DE/zenflowtts-spkenctrsnf-alldata-backboneall-f0transf-pdropdur0p0f0out0p0-2048ntokens-lngemb/LJ003-0111.wav" type="audio/wav"></audio></td>
+         <td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/multilingual/ljs/en_US/zenflowtts-spkenctrsnf-alldata-F0transf-pdropdur0p0F0out0p0-2048ntokens-lngemb/LJ003-0111.wav" type="audio/wav"></audio></td>
+         <td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/multilingual/ljs/en_DE/zenflowtts-spkenctrsnf-alldata-F0transf-pdropdur0p0F0out0p0-2048ntokens-lngemb/LJ003-0111.wav" type="audio/wav"></audio></td>
+         <td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/multilingual/ljs/en_US/zenflowtts-spkenctrsnf-alldata-backboneall-F0transf-pdropdur0p0F0out0p0-2048ntokens-lngemb/LJ003-0111.wav" type="audio/wav"></audio></td>
+         <td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/multilingual/ljs/en_DE/zenflowtts-spkenctrsnf-alldata-backboneall-F0transf-pdropdur0p0F0out0p0-2048ntokens-lngemb/LJ003-0111.wav" type="audio/wav"></audio></td>
       </tr>
       <tr>
       <td style="text-align: left;vertical-align:middle;width: 420px;">The original plan called for the President to spend only one day in the State, making whirlwind visits to Dallas, Fort Worth, San Antonio, and Houston.</td>
          <td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/multilingual/ground_truth/LJ029-0022.wav" type="audio/wav"></audio></td>
-         <td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/multilingual/ljs/en_US/zenflowtts-spkenctrsnf-alldata-f0transf-pdropdur0p0f0out0p0-2048ntokens-lngemb/LJ029-0022.wav" type="audio/wav"></audio></td>
-         <td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/multilingual/ljs/en_DE/zenflowtts-spkenctrsnf-alldata-f0transf-pdropdur0p0f0out0p0-2048ntokens-lngemb/LJ029-0022.wav" type="audio/wav"></audio></td>
-         <td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/multilingual/ljs/en_US/zenflowtts-spkenctrsnf-alldata-backboneall-f0transf-pdropdur0p0f0out0p0-2048ntokens-lngemb/LJ029-0022.wav" type="audio/wav"></audio></td>
-         <td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/multilingual/ljs/en_DE/zenflowtts-spkenctrsnf-alldata-backboneall-f0transf-pdropdur0p0f0out0p0-2048ntokens-lngemb/LJ029-0022.wav" type="audio/wav"></audio></td>
+         <td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/multilingual/ljs/en_US/zenflowtts-spkenctrsnf-alldata-F0transf-pdropdur0p0F0out0p0-2048ntokens-lngemb/LJ029-0022.wav" type="audio/wav"></audio></td>
+         <td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/multilingual/ljs/en_DE/zenflowtts-spkenctrsnf-alldata-F0transf-pdropdur0p0F0out0p0-2048ntokens-lngemb/LJ029-0022.wav" type="audio/wav"></audio></td>
+         <td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/multilingual/ljs/en_US/zenflowtts-spkenctrsnf-alldata-backboneall-F0transf-pdropdur0p0F0out0p0-2048ntokens-lngemb/LJ029-0022.wav" type="audio/wav"></audio></td>
+         <td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/multilingual/ljs/en_DE/zenflowtts-spkenctrsnf-alldata-backboneall-F0transf-pdropdur0p0F0out0p0-2048ntokens-lngemb/LJ029-0022.wav" type="audio/wav"></audio></td>
       </tr>
       <tr>
       <td style="text-align: left;vertical-align:middle;width: 420px;">and others who were present say that no agent was inebriated or acted improperly.</td>
          <td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/multilingual/ground_truth/LJ048-0228.wav" type="audio/wav"></audio></td>
-         <td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/multilingual/ljs/en_US/zenflowtts-spkenctrsnf-alldata-f0transf-pdropdur0p0f0out0p0-2048ntokens-lngemb/LJ048-0228.wav" type="audio/wav"></audio></td>
-         <td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/multilingual/ljs/en_DE/zenflowtts-spkenctrsnf-alldata-f0transf-pdropdur0p0f0out0p0-2048ntokens-lngemb/LJ048-0228.wav" type="audio/wav"></audio></td>
-         <td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/multilingual/ljs/en_US/zenflowtts-spkenctrsnf-alldata-backboneall-f0transf-pdropdur0p0f0out0p0-2048ntokens-lngemb/LJ048-0228.wav" type="audio/wav"></audio></td>
-         <td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/multilingual/ljs/en_DE/zenflowtts-spkenctrsnf-alldata-backboneall-f0transf-pdropdur0p0f0out0p0-2048ntokens-lngemb/LJ048-0228.wav" type="audio/wav"></audio></td>
+         <td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/multilingual/ljs/en_US/zenflowtts-spkenctrsnf-alldata-F0transf-pdropdur0p0F0out0p0-2048ntokens-lngemb/LJ048-0228.wav" type="audio/wav"></audio></td>
+         <td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/multilingual/ljs/en_DE/zenflowtts-spkenctrsnf-alldata-F0transf-pdropdur0p0F0out0p0-2048ntokens-lngemb/LJ048-0228.wav" type="audio/wav"></audio></td>
+         <td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/multilingual/ljs/en_US/zenflowtts-spkenctrsnf-alldata-backboneall-F0transf-pdropdur0p0F0out0p0-2048ntokens-lngemb/LJ048-0228.wav" type="audio/wav"></audio></td>
+         <td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/multilingual/ljs/en_DE/zenflowtts-spkenctrsnf-alldata-backboneall-F0transf-pdropdur0p0F0out0p0-2048ntokens-lngemb/LJ048-0228.wav" type="audio/wav"></audio></td>
       </tr>
    </tbody>
 </table>
@@ -223,27 +247,27 @@ Reference
    <tbody>
       <tr>
       <td style="text-align: left;vertical-align:middle;width: 420px;">Und nun geschah das große Unglück, daß dieser so eindeutige elementare Aufruhr so gründlich fehlgedeutet wurde.</td>
-         <td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/multilingual/ground_truth/saemtliche_schriften4_43_f000048.wav" type="audio/wav"></audio></td>
-         <td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/multilingual/ljs/de_DE/zenflowtts-spkenctrsnf-alldata-f0transf-pdropdur0p0f0out0p0-2048ntokens-lngemb/saemtliche_schriften4_43_f000048.wav" type="audio/wav"></audio></td>
-         <td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/multilingual/ljs/de_US/zenflowtts-spkenctrsnf-alldata-f0transf-pdropdur0p0f0out0p0-2048ntokens-lngemb/saemtliche_schriften4_43_f000048.wav" type="audio/wav"></audio></td>
-         <td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/multilingual/ljs/de_DE/zenflowtts-spkenctrsnf-alldata-backboneall-f0transf-pdropdur0p0f0out0p0-2048ntokens-lngemb/saemtliche_schriften4_43_f000048.wav" type="audio/wav"></audio></td>
-         <td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/multilingual/ljs/de_US/zenflowtts-spkenctrsnf-alldata-backboneall-f0transf-pdropdur0p0f0out0p0-2048ntokens-lngemb/saemtliche_schriften4_43_f000048.wav" type="audio/wav"></audio></td>   
+         <td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/multilingual/ground_truth/saemtliche_schriften4_43_F000048.wav" type="audio/wav"></audio></td>
+         <td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/multilingual/ljs/de_DE/zenflowtts-spkenctrsnf-alldata-F0transf-pdropdur0p0F0out0p0-2048ntokens-lngemb/saemtliche_schriften4_43_F000048.wav" type="audio/wav"></audio></td>
+         <td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/multilingual/ljs/de_US/zenflowtts-spkenctrsnf-alldata-F0transf-pdropdur0p0F0out0p0-2048ntokens-lngemb/saemtliche_schriften4_43_F000048.wav" type="audio/wav"></audio></td>
+         <td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/multilingual/ljs/de_DE/zenflowtts-spkenctrsnf-alldata-backboneall-F0transf-pdropdur0p0F0out0p0-2048ntokens-lngemb/saemtliche_schriften4_43_F000048.wav" type="audio/wav"></audio></td>
+         <td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/multilingual/ljs/de_US/zenflowtts-spkenctrsnf-alldata-backboneall-F0transf-pdropdur0p0F0out0p0-2048ntokens-lngemb/saemtliche_schriften4_43_F000048.wav" type="audio/wav"></audio></td>   
       </tr>   
       <tr>
       <td style="text-align: left;vertical-align:middle;width: 420px;">Der Vezier nahm alles, was ihm der König gab, durchwanderte die Wüste in der Länge und in der Breite, bis er in das Land des Königs Schamech kam.</td>
-         <td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/multilingual/ground_truth/tausend_und_eine_nacht_band_2_08_f000069.wav" type="audio/wav"></audio></td>
-         <td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/multilingual/ljs/de_DE/zenflowtts-spkenctrsnf-alldata-f0transf-pdropdur0p0f0out0p0-2048ntokens-lngemb/tausend_und_eine_nacht_band_2_08_f000069.wav" type="audio/wav"></audio></td>
-         <td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/multilingual/ljs/de_US/zenflowtts-spkenctrsnf-alldata-f0transf-pdropdur0p0f0out0p0-2048ntokens-lngemb/tausend_und_eine_nacht_band_2_08_f000069.wav" type="audio/wav"></audio></td>
-         <td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/multilingual/ljs/de_DE/zenflowtts-spkenctrsnf-alldata-backboneall-f0transf-pdropdur0p0f0out0p0-2048ntokens-lngemb/tausend_und_eine_nacht_band_2_08_f000069.wav" type="audio/wav"></audio></td>
-         <td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/multilingual/ljs/de_US/zenflowtts-spkenctrsnf-alldata-backboneall-f0transf-pdropdur0p0f0out0p0-2048ntokens-lngemb/tausend_und_eine_nacht_band_2_08_f000069.wav" type="audio/wav"></audio></td>
+         <td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/multilingual/ground_truth/tausend_und_eine_nacht_band_2_08_F000069.wav" type="audio/wav"></audio></td>
+         <td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/multilingual/ljs/de_DE/zenflowtts-spkenctrsnf-alldata-F0transf-pdropdur0p0F0out0p0-2048ntokens-lngemb/tausend_und_eine_nacht_band_2_08_F000069.wav" type="audio/wav"></audio></td>
+         <td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/multilingual/ljs/de_US/zenflowtts-spkenctrsnf-alldata-F0transf-pdropdur0p0F0out0p0-2048ntokens-lngemb/tausend_und_eine_nacht_band_2_08_F000069.wav" type="audio/wav"></audio></td>
+         <td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/multilingual/ljs/de_DE/zenflowtts-spkenctrsnf-alldata-backboneall-F0transf-pdropdur0p0F0out0p0-2048ntokens-lngemb/tausend_und_eine_nacht_band_2_08_F000069.wav" type="audio/wav"></audio></td>
+         <td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/multilingual/ljs/de_US/zenflowtts-spkenctrsnf-alldata-backboneall-F0transf-pdropdur0p0F0out0p0-2048ntokens-lngemb/tausend_und_eine_nacht_band_2_08_F000069.wav" type="audio/wav"></audio></td>
       </tr>
      <tr>
       <td style="text-align: left;vertical-align:middle;width: 420px;">die Kirche verließen, brauste die Orgel Triumph und die Glocke</td>
-         <td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/multilingual/ground_truth/totenhochzeit_03_f000112.wav" type="audio/wav"></audio></td>
-         <td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/multilingual/ljs/de_DE/zenflowtts-spkenctrsnf-alldata-f0transf-pdropdur0p0f0out0p0-2048ntokens-lngemb/totenhochzeit_03_f000112.wav" type="audio/wav"></audio></td>
-         <td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/multilingual/ljs/de_US/zenflowtts-spkenctrsnf-alldata-f0transf-pdropdur0p0f0out0p0-2048ntokens-lngemb/totenhochzeit_03_f000112.wav" type="audio/wav"></audio></td>
-         <td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/multilingual/ljs/de_DE/zenflowtts-spkenctrsnf-alldata-backboneall-f0transf-pdropdur0p0f0out0p0-2048ntokens-lngemb/totenhochzeit_03_f000112.wav" type="audio/wav"></audio></td>
-         <td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/multilingual/ljs/de_US/zenflowtts-spkenctrsnf-alldata-backboneall-f0transf-pdropdur0p0f0out0p0-2048ntokens-lngemb/totenhochzeit_03_f000112.wav" type="audio/wav"></audio></td>
+         <td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/multilingual/ground_truth/totenhochzeit_03_F000112.wav" type="audio/wav"></audio></td>
+         <td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/multilingual/ljs/de_DE/zenflowtts-spkenctrsnf-alldata-F0transf-pdropdur0p0F0out0p0-2048ntokens-lngemb/totenhochzeit_03_F000112.wav" type="audio/wav"></audio></td>
+         <td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/multilingual/ljs/de_US/zenflowtts-spkenctrsnf-alldata-F0transf-pdropdur0p0F0out0p0-2048ntokens-lngemb/totenhochzeit_03_F000112.wav" type="audio/wav"></audio></td>
+         <td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/multilingual/ljs/de_DE/zenflowtts-spkenctrsnf-alldata-backboneall-F0transf-pdropdur0p0F0out0p0-2048ntokens-lngemb/totenhochzeit_03_F000112.wav" type="audio/wav"></audio></td>
+         <td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/multilingual/ljs/de_US/zenflowtts-spkenctrsnf-alldata-backboneall-F0transf-pdropdur0p0F0out0p0-2048ntokens-lngemb/totenhochzeit_03_F000112.wav" type="audio/wav"></audio></td>
       </tr>
    </tbody>
 </table>
@@ -266,26 +290,26 @@ Reference
       <tr>
       <td style="text-align: left;vertical-align:middle;width: 420px;">He was in consequence put out of the protection of their internal law, end quote. Their code was a subject of some curiosity.</td>
          <td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/multilingual/ground_truth/LJ003-0111.wav" type="audio/wav"></audio></td>
-         <td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/multilingual/arnolds/en_US/zenflowtts-spkenctrsnf-alldata-f0transf-pdropdur0p0f0out0p0-2048ntokens-lngemb/LJ003-0111.wav" type="audio/wav"></audio></td>
-         <td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/multilingual/arnolds/en_DE/zenflowtts-spkenctrsnf-alldata-f0transf-pdropdur0p0f0out0p0-2048ntokens-lngemb/LJ003-0111.wav" type="audio/wav"></audio></td>
-         <td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/multilingual/arnolds/en_US/zenflowtts-spkenctrsnf-alldata-backboneall-f0transf-pdropdur0p0f0out0p0-2048ntokens-lngemb/LJ003-0111.wav" type="audio/wav"></audio></td>   
-         <td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/multilingual/arnolds/en_DE/zenflowtts-spkenctrsnf-alldata-backboneall-f0transf-pdropdur0p0f0out0p0-2048ntokens-lngemb/LJ003-0111.wav" type="audio/wav"></audio></td>
+         <td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/multilingual/arnolds/en_US/zenflowtts-spkenctrsnf-alldata-F0transf-pdropdur0p0F0out0p0-2048ntokens-lngemb/LJ003-0111.wav" type="audio/wav"></audio></td>
+         <td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/multilingual/arnolds/en_DE/zenflowtts-spkenctrsnf-alldata-F0transf-pdropdur0p0F0out0p0-2048ntokens-lngemb/LJ003-0111.wav" type="audio/wav"></audio></td>
+         <td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/multilingual/arnolds/en_US/zenflowtts-spkenctrsnf-alldata-backboneall-F0transf-pdropdur0p0F0out0p0-2048ntokens-lngemb/LJ003-0111.wav" type="audio/wav"></audio></td>   
+         <td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/multilingual/arnolds/en_DE/zenflowtts-spkenctrsnf-alldata-backboneall-F0transf-pdropdur0p0F0out0p0-2048ntokens-lngemb/LJ003-0111.wav" type="audio/wav"></audio></td>
       </tr>
       <tr>
       <td style="text-align: left;vertical-align:middle;width: 420px;">The original plan called for the President to spend only one day in the State, making whirlwind visits to Dallas, Fort Worth, San Antonio, and Houston.</td>
          <td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/multilingual/ground_truth/LJ029-0022.wav" type="audio/wav"></audio></td>
-         <td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/multilingual/arnolds/en_US/zenflowtts-spkenctrsnf-alldata-f0transf-pdropdur0p0f0out0p0-2048ntokens-lngemb/LJ029-0022.wav" type="audio/wav"></audio></td>
-         <td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/multilingual/arnolds/en_DE/zenflowtts-spkenctrsnf-alldata-f0transf-pdropdur0p0f0out0p0-2048ntokens-lngemb/LJ029-0022.wav" type="audio/wav"></audio></td>
-         <td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/multilingual/arnolds/en_US/zenflowtts-spkenctrsnf-alldata-backboneall-f0transf-pdropdur0p0f0out0p0-2048ntokens-lngemb/LJ029-0022.wav" type="audio/wav"></audio></td>            
-         <td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/multilingual/arnolds/en_DE/zenflowtts-spkenctrsnf-alldata-backboneall-f0transf-pdropdur0p0f0out0p0-2048ntokens-lngemb/LJ029-0022.wav" type="audio/wav"></audio></td>
+         <td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/multilingual/arnolds/en_US/zenflowtts-spkenctrsnf-alldata-F0transf-pdropdur0p0F0out0p0-2048ntokens-lngemb/LJ029-0022.wav" type="audio/wav"></audio></td>
+         <td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/multilingual/arnolds/en_DE/zenflowtts-spkenctrsnf-alldata-F0transf-pdropdur0p0F0out0p0-2048ntokens-lngemb/LJ029-0022.wav" type="audio/wav"></audio></td>
+         <td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/multilingual/arnolds/en_US/zenflowtts-spkenctrsnf-alldata-backboneall-F0transf-pdropdur0p0F0out0p0-2048ntokens-lngemb/LJ029-0022.wav" type="audio/wav"></audio></td>            
+         <td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/multilingual/arnolds/en_DE/zenflowtts-spkenctrsnf-alldata-backboneall-F0transf-pdropdur0p0F0out0p0-2048ntokens-lngemb/LJ029-0022.wav" type="audio/wav"></audio></td>
       </tr>
       <tr>
       <td style="text-align: left;vertical-align:middle;width: 420px;">and others who were present say that no agent was inebriated or acted improperly.</td>
          <td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/multilingual/ground_truth/LJ048-0228.wav" type="audio/wav"></audio></td>
-         <td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/multilingual/arnolds/en_US/zenflowtts-spkenctrsnf-alldata-f0transf-pdropdur0p0f0out0p0-2048ntokens-lngemb/LJ048-0228.wav" type="audio/wav"></audio></td>
-         <td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/multilingual/arnolds/en_DE/zenflowtts-spkenctrsnf-alldata-f0transf-pdropdur0p0f0out0p0-2048ntokens-lngemb/LJ048-0228.wav" type="audio/wav"></audio></td>
-         <td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/multilingual/arnolds/en_US/zenflowtts-spkenctrsnf-alldata-backboneall-f0transf-pdropdur0p0f0out0p0-2048ntokens-lngemb/LJ048-0228.wav" type="audio/wav"></audio></td>            
-         <td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/multilingual/arnolds/en_DE/zenflowtts-spkenctrsnf-alldata-backboneall-f0transf-pdropdur0p0f0out0p0-2048ntokens-lngemb/LJ048-0228.wav" type="audio/wav"></audio></td>
+         <td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/multilingual/arnolds/en_US/zenflowtts-spkenctrsnf-alldata-F0transf-pdropdur0p0F0out0p0-2048ntokens-lngemb/LJ048-0228.wav" type="audio/wav"></audio></td>
+         <td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/multilingual/arnolds/en_DE/zenflowtts-spkenctrsnf-alldata-F0transf-pdropdur0p0F0out0p0-2048ntokens-lngemb/LJ048-0228.wav" type="audio/wav"></audio></td>
+         <td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/multilingual/arnolds/en_US/zenflowtts-spkenctrsnf-alldata-backboneall-F0transf-pdropdur0p0F0out0p0-2048ntokens-lngemb/LJ048-0228.wav" type="audio/wav"></audio></td>            
+         <td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/multilingual/arnolds/en_DE/zenflowtts-spkenctrsnf-alldata-backboneall-F0transf-pdropdur0p0F0out0p0-2048ntokens-lngemb/LJ048-0228.wav" type="audio/wav"></audio></td>
       </tr>
    </tbody>
 </table>
@@ -307,27 +331,27 @@ Reference.
    <tbody>
       <tr>
       <td style="text-align: left;vertical-align:middle;width: 420px;">Und nun geschah das große Unglück, daß dieser so eindeutige elementare Aufruhr so gründlich fehlgedeutet wurde.</td>
-         <td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/multilingual/ground_truth/saemtliche_schriften4_43_f000048.wav" type="audio/wav"></audio></td>
-         <td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/multilingual/arnolds/de_DE/zenflowtts-spkenctrsnf-alldata-f0transf-pdropdur0p0f0out0p0-2048ntokens-lngemb/saemtliche_schriften4_43_f000048.wav" type="audio/wav"></audio></td>
-         <td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/multilingual/arnolds/de_US/zenflowtts-spkenctrsnf-alldata-f0transf-pdropdur0p0f0out0p0-2048ntokens-lngemb/saemtliche_schriften4_43_f000048.wav" type="audio/wav"></audio></td>
-         <td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/multilingual/arnolds/de_DE/zenflowtts-spkenctrsnf-alldata-backboneall-f0transf-pdropdur0p0f0out0p0-2048ntokens-lngemb/saemtliche_schriften4_43_f000048.wav" type="audio/wav"></audio></td>
-         <td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/multilingual/arnolds/de_US/zenflowtts-spkenctrsnf-alldata-backboneall-f0transf-pdropdur0p0f0out0p0-2048ntokens-lngemb/saemtliche_schriften4_43_f000048.wav" type="audio/wav"></audio></td>
+         <td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/multilingual/ground_truth/saemtliche_schriften4_43_F000048.wav" type="audio/wav"></audio></td>
+         <td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/multilingual/arnolds/de_DE/zenflowtts-spkenctrsnf-alldata-F0transf-pdropdur0p0F0out0p0-2048ntokens-lngemb/saemtliche_schriften4_43_F000048.wav" type="audio/wav"></audio></td>
+         <td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/multilingual/arnolds/de_US/zenflowtts-spkenctrsnf-alldata-F0transf-pdropdur0p0F0out0p0-2048ntokens-lngemb/saemtliche_schriften4_43_F000048.wav" type="audio/wav"></audio></td>
+         <td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/multilingual/arnolds/de_DE/zenflowtts-spkenctrsnf-alldata-backboneall-F0transf-pdropdur0p0F0out0p0-2048ntokens-lngemb/saemtliche_schriften4_43_F000048.wav" type="audio/wav"></audio></td>
+         <td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/multilingual/arnolds/de_US/zenflowtts-spkenctrsnf-alldata-backboneall-F0transf-pdropdur0p0F0out0p0-2048ntokens-lngemb/saemtliche_schriften4_43_F000048.wav" type="audio/wav"></audio></td>
       </tr>   
       <tr>
       <td style="text-align: left;vertical-align:middle;width: 420px;">Der Vezier nahm alles, was ihm der König gab, durchwanderte die Wüste in der Länge und in der Breite, bis er in das Land des Königs Schamech kam.</td>
-         <td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/multilingual/ground_truth/tausend_und_eine_nacht_band_2_08_f000069.wav" type="audio/wav"></audio></td>
-         <td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/multilingual/arnolds/de_DE/zenflowtts-spkenctrsnf-alldata-f0transf-pdropdur0p0f0out0p0-2048ntokens-lngemb/tausend_und_eine_nacht_band_2_08_f000069.wav" type="audio/wav"></audio></td>
-         <td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/multilingual/arnolds/de_US/zenflowtts-spkenctrsnf-alldata-f0transf-pdropdur0p0f0out0p0-2048ntokens-lngemb/tausend_und_eine_nacht_band_2_08_f000069.wav" type="audio/wav"></audio></td>
-         <td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/multilingual/arnolds/de_DE/zenflowtts-spkenctrsnf-alldata-backboneall-f0transf-pdropdur0p0f0out0p0-2048ntokens-lngemb/tausend_und_eine_nacht_band_2_08_f000069.wav" type="audio/wav"></audio></td>            
-         <td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/multilingual/arnolds/de_US/zenflowtts-spkenctrsnf-alldata-backboneall-f0transf-pdropdur0p0f0out0p0-2048ntokens-lngemb/tausend_und_eine_nacht_band_2_08_f000069.wav" type="audio/wav"></audio></td>
+         <td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/multilingual/ground_truth/tausend_und_eine_nacht_band_2_08_F000069.wav" type="audio/wav"></audio></td>
+         <td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/multilingual/arnolds/de_DE/zenflowtts-spkenctrsnf-alldata-F0transf-pdropdur0p0F0out0p0-2048ntokens-lngemb/tausend_und_eine_nacht_band_2_08_F000069.wav" type="audio/wav"></audio></td>
+         <td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/multilingual/arnolds/de_US/zenflowtts-spkenctrsnf-alldata-F0transf-pdropdur0p0F0out0p0-2048ntokens-lngemb/tausend_und_eine_nacht_band_2_08_F000069.wav" type="audio/wav"></audio></td>
+         <td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/multilingual/arnolds/de_DE/zenflowtts-spkenctrsnf-alldata-backboneall-F0transf-pdropdur0p0F0out0p0-2048ntokens-lngemb/tausend_und_eine_nacht_band_2_08_F000069.wav" type="audio/wav"></audio></td>            
+         <td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/multilingual/arnolds/de_US/zenflowtts-spkenctrsnf-alldata-backboneall-F0transf-pdropdur0p0F0out0p0-2048ntokens-lngemb/tausend_und_eine_nacht_band_2_08_F000069.wav" type="audio/wav"></audio></td>
       </tr>
      <tr>
       <td style="text-align: left;vertical-align:middle;width: 420px;">die Kirche verließen, brauste die Orgel Triumph und die Glocke</td>
-         <td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/multilingual/ground_truth/totenhochzeit_03_f000112.wav" type="audio/wav"></audio></td>
-         <td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/multilingual/arnolds/de_DE/zenflowtts-spkenctrsnf-alldata-f0transf-pdropdur0p0f0out0p0-2048ntokens-lngemb/totenhochzeit_03_f000112.wav" type="audio/wav"></audio></td>
-         <td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/multilingual/arnolds/de_US/zenflowtts-spkenctrsnf-alldata-f0transf-pdropdur0p0f0out0p0-2048ntokens-lngemb/totenhochzeit_03_f000112.wav" type="audio/wav"></audio></td>
-         <td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/multilingual/arnolds/de_DE/zenflowtts-spkenctrsnf-alldata-backboneall-f0transf-pdropdur0p0f0out0p0-2048ntokens-lngemb/totenhochzeit_03_f000112.wav" type="audio/wav"></audio></td>            
-         <td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/multilingual/arnolds/de_US/zenflowtts-spkenctrsnf-alldata-backboneall-f0transf-pdropdur0p0f0out0p0-2048ntokens-lngemb/totenhochzeit_03_f000112.wav" type="audio/wav"></audio></td>
+         <td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/multilingual/ground_truth/totenhochzeit_03_F000112.wav" type="audio/wav"></audio></td>
+         <td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/multilingual/arnolds/de_DE/zenflowtts-spkenctrsnf-alldata-F0transf-pdropdur0p0F0out0p0-2048ntokens-lngemb/totenhochzeit_03_F000112.wav" type="audio/wav"></audio></td>
+         <td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/multilingual/arnolds/de_US/zenflowtts-spkenctrsnf-alldata-F0transf-pdropdur0p0F0out0p0-2048ntokens-lngemb/totenhochzeit_03_F000112.wav" type="audio/wav"></audio></td>
+         <td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/multilingual/arnolds/de_DE/zenflowtts-spkenctrsnf-alldata-backboneall-F0transf-pdropdur0p0F0out0p0-2048ntokens-lngemb/totenhochzeit_03_F000112.wav" type="audio/wav"></audio></td>            
+         <td style="text-align: center"><audio controls style="width: 150px;"><source src="wavs/multilingual/arnolds/de_US/zenflowtts-spkenctrsnf-alldata-backboneall-F0transf-pdropdur0p0F0out0p0-2048ntokens-lngemb/totenhochzeit_03_F000112.wav" type="audio/wav"></audio></td>
       </tr>
    </tbody>
 </table>
