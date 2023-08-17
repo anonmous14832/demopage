@@ -81,7 +81,7 @@ In this paper we propose ZenFlow: a framework for Zero-Shot Generative Speech Sy
 <table>
    <thead>
       <tr>
-         <th style="text-align: center">Degraded</th>
+         <th style="text-align: center">Original</th>
          <th style="text-align: center">EnCodec 6.0kbps</th>
          <th style="text-align: center">EnCodec 1.5kbps</th>
          <th style="text-align: center">ZenFlow-Continuous 0.947 kbps + F0, Energy </th>
